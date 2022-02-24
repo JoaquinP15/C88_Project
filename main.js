@@ -132,4 +132,5 @@ function my_keydown(e)
 			playerUpdate();
 		}
 	}
+}
 
