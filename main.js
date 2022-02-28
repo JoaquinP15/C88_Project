@@ -59,25 +59,25 @@ function my_keydown(e)
 		document.getElementById("myCanvas").style.borderColor="red";
 	
 	else{
-		if(keyPressed == '38')
-		{
-			up();
-			console.log("up");
-		}
-		if(keyPressed == '40')
-		{
-			down();
-			console.log("down");
-		}
 		if(keyPressed == '37')
 		{
 			left();
 			console.log("left");
 		}
+		if(keyPressed == '38')
+		{
+			up();
+			console.log("up");
+		}
 		if(keyPressed == '39')
 		{
 			right();
 			console.log("right");
+		}
+		if(keyPressed == '40')
+		{
+			down();
+			console.log("down");
 		}
 	}
 	
